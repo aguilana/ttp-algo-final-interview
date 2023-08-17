@@ -28,11 +28,15 @@ You are provided with a JSON below, inside known are 5 words with a value. The g
   "unknown" : "figged"
 }
 
-Letters "a" through "i" alphabetically represent while integers 1 to 9, they are unique and the letter alphabetically next to it cannot numerically next to it. For example, of "e" is equal to 4, no other letter can be equal to 4, both "d" and "f" cannot be equal to 3 or 5. A word's value is equal to the sum of all it's letter so "ee" is equal to 8 in this case. Use these rules along with the provided known words and values to then deduce the values of each letter to help solve the puzzle.
+Letters "a" through "i" alphabetically represent while integers 1 to 9, they are unique and the letter alphabetically next to it cannot numerically next to it.
+For example, of "e" is equal to 4, no other letter can be equal to 4, both "d" and "f" cannot be equal to 3 or 5.
+A word's value is equal to the sum of all it's letter so "ee" is equal to 8 in this case.
+Use these rules along with the provided known words and values to then deduce the values of each letter to help solve the puzzle.
 
-While your code should be able to solve the given problem, it's methodology and algorithm should be dynamic enough to be able to solve other problems with similar parameters, but different values. (Letters "a" through "i", each representing a whole integer from 1 to 9, etc). The end result should be a class or a group of functions that can keep track of possible values and eliminate possibilities using dynamic logic to reach its conclusion.
+While your code should be able to solve the given problem,
+it's methodology and algorithm should be dynamic enough to be able to solve other problems with similar parameters,
+but different values. (Letters "a" through "i", each representing a whole integer from 1 to 9, etc).
+The end result should be a class or a group of functions that can keep track of possible values and eliminate possibilities using dynamic logic to reach its conclusion.
 
 After you have finished commit your code to your local repo. npm run tests to test the cases and analyze your results.
 ```
-
-![Alt text](https://files.slack.com/files-pri/T0LN8FJEP-F05KE529G13/screenshot_20230731_050354_gmail.jpg)
