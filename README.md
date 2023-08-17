@@ -2,7 +2,9 @@
 
 ## FORK AND CLONE
 
-- cd into the directory you saved it to
+- fork repo to local machine
+- clone into whatever directory on your machine
+- cd into the project from whatever directory you saved it to
 - npm install
   /_ --- get comfortable with branching and git commit commands in your local branch --- _/
 - git checkout -b <your-branch-name>
